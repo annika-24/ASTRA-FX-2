@@ -2,7 +2,7 @@ ASTRA-FX
 
 Adaptive Functional Reserve & Countermeasure Experiment is a browser-based research prototype exploring how longitudinal functional measurements might be translated into mission-relevant physical-performance context.
 
-Live prototype: https://annika-24.github.io/ASTRA-FX/
+Live prototype: https://astra-horizon-explorer.lovable.app
 
 Purpose
 
