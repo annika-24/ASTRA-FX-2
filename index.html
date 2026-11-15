@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f8fa">
+  <title>ASTRA-FX | Functional Reserve Research Prototype</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script defer src="data.js"></script>
+  <script defer src="model.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brandmark">A</div>
+        <div><div class="brandname">ASTRA-FX</div><div class="branddesc">Functional reserve & countermeasure research</div></div>
+      </div>
+      <div class="topmeta">
+        <span class="source-label">RESEARCH PROTOTYPE</span>
+        <span id="ds">NASA EVIDENCE + SYNTHETIC MODEL</span>
+      </div>
+    </header>
+    <section class="intro">
+      <div>
+        <p class="eyebrow">HUMAN PERFORMANCE · SPACEFLIGHT</p>
+        <h1>From physiological change to mission-relevant function.</h1>
+        <p class="introcopy">Explore published NASA musculoskeletal outcomes, then inspect a separate illustrative model for longitudinal monitoring and mission-specific functional reserve.</p>
+      </div>
+      <div class="intro-side"><span class="dot"></span><span>Evidence and prototype outputs are kept distinct</span></div>
+    </section>
+    <div class="navwrap">
+      <nav id="nav" aria-label="Application sections"></nav>
+      <div id="caseControl" class="case-control" hidden>
+        <label for="asof">Synthetic case assessment</label>
+        <select id="asof" aria-label="Synthetic case assessment"></select>
+      </div>
+    </div>
+    <main id="main" aria-live="polite"><p class="loading">Loading ASTRA-FX…</p></main>
+    <footer><span>ASTRA-FX · Research prototype</span><span>Not a clinical tool or operational readiness system</span></footer>
+  </div>
+</body>
+</html>
